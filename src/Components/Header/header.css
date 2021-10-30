@@ -1,0 +1,49 @@
+
+
+header {
+    height: 10vh;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10%;
+    padding-top: 4%;
+}
+
+a {
+    color: #ed4d08;
+    text-decoration: none;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+
+@media (max-width: 450px) {
+    nav {
+        justify-content: center;
+        padding-right: 0%;
+        padding-top: 0%;
+    }
+    a {
+        /* color: #f5b461;  */
+        color: white;
+        font-weight: 400;
+    }
+    h3 {
+        font-size: 24px;
+    }
+
+    nav {
+        padding-right: 3%;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+}
