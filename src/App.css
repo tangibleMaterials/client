@@ -10,24 +10,7 @@
   grid-template-rows: 10vh 80vh 10vh;
   font-family: 'Raleway', sans-serif;
   background: rgb(237,77,8);
-  background: linear-gradient(0deg, rgba(237,77,8,1) 16%, rgba(250,216,176,1) 80%);
+  background: linear-gradient(0deg, rgba(237,77,8,1) 16%, rgba(250,216,176,1) 90%);
   height: 100vh;
 }
 
-
-@media (max-width: 450px) {
-  header {
-    grid-row: 2/3;
-  }
-  .home-container {
-    grid-row: 1/2;
-  }
-  footer {
-    grid-row: 3/4;
-  }
-
-  .App {
-    grid-template-rows: 80vh 10vh 10vh;
-  }
-  
-} 

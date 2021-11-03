@@ -25,25 +25,11 @@ h3 {
 
 
 @media (max-width: 450px) {
-    nav {
-        justify-content: center;
-        padding-right: 0%;
-        padding-top: 0%;
-    }
-    a {
-        /* color: #f5b461;  */
-        color: white;
-        font-weight: 400;
-    }
     h3 {
         font-size: 24px;
     }
 
     nav {
-        padding-right: 3%;
-    }
-
-    h3 {
-        font-size: 24px;
+        padding-right: 5%;
     }
 }

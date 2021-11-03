@@ -9,10 +9,10 @@ const HomeContainer = () => {
                 <img src={logo} alt="tangible logo"/>
             </div>
             <div className="mission-statement">
-                <h2>Empowering the construction industry to adapt to a warming world.</h2>
+                <h2>Empowering the real estate and design industries to take action on climate change.</h2>
             </div>
             <div className="stay-tuned-container">
-                <h2 className="stay-tuned">STAY TUNED</h2>
+                <h2 className="stay-tuned">STAY TUNED...</h2>
             </div>
         </div>
     )
