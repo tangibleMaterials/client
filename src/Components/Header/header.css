@@ -21,9 +21,13 @@ a {
 h3 {
     font-weight: 400;
     font-size: 28px;
+    transition:all .5s ease-in-out; 
+    -o-transition:all .5s ease-in-out; 
+    -moz-transition:all .5s ease-in-out; 
+    -webkit-transition:all .5s ease-in-out;
 }
 
-
+/*###### RESPONSIVE DESIGN ######*/
 @media (max-width: 450px) {
     h3 {
         font-size: 24px;
@@ -31,5 +35,11 @@ h3 {
 
     nav {
         padding-right: 5%;
+    }
+}
+
+@media (max-height: 575px) {
+    h3 {
+        font-size: 18px;
     }
 }
