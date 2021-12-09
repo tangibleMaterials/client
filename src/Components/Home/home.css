@@ -2,6 +2,10 @@
 
 h2 {
     font-size: 32px;
+    transition:all .5s ease-in-out; 
+    -o-transition:all .5s ease-in-out; 
+    -moz-transition:all .5s ease-in-out; 
+    -webkit-transition:all .5s ease-in-out;
 }
 
 .home-container {
@@ -21,13 +25,18 @@ h2 {
 
 img {
     width: 80%;
+    height: 100%;
+    transition:all .5s ease-in-out; 
+    -o-transition:all .5s ease-in-out; 
+    -moz-transition:all .5s ease-in-out; 
+    -webkit-transition:all .5s ease-in-out;
 }
 
 .mission-statement {
     width: 60%;
     text-align: center;
-    min-height: 10vh;
     padding-top: 5%;
+    object-fit: contain;
 }
 
 .mission-statement > h2 {
@@ -35,8 +44,8 @@ img {
 }
 
 .stay-tuned-container {
-    min-height: 10vh;
     padding-top: 4%;
+    object-fit: contain;
 }
 
 
@@ -102,6 +111,25 @@ img {
     .stay-tuned {
         /* color: #f5b461; */
         color: white;
+    }
+}
+
+@media (max-height: 575px) {
+    img {
+        height: 95%;
+        width: 95%;
+    }
+
+    .mission-statement {
+        padding-top: 2px;
+    }
+
+    .mission-statement > h2 {
+        font-size: 18px;
+    }
+
+    .stay-tuned {
+        font-size: 18px;
     }
 }
 
